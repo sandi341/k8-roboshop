@@ -10,7 +10,7 @@ spec:
   containers:
   - name: mongodb
     imagePullPolicy: Always
-    image: techworldwithsiva/mongodb:v1
+    image: saandisoft/mongodb:v1
     ports:
       - containerPort: 27017
 ---
